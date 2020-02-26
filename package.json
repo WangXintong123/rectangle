@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo\"Error:no test specified\"&& exit 0"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,13 @@
   },
   "dependencies": {
     "grunt-mocha-istanbul": "^5.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangXintong123/rectangle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WangXintong123/rectangle/issues"
+  },
+  "homepage": "https://github.com/WangXintong123/rectangle#readme"
 }
