@@ -1,8 +1,8 @@
-var width=document.getElementById("width");
-var height=document.getElementById("height");
-var butt=document.getElementById("butt")
-var zhouchang=document.getElementById("zhouchang");
-var mianji=document.getElementById("mianji");
+var width=document.getElementById('width');
+var height=document.getElementById('height');
+var butt=document.getElementById('butt');
+var zhouchang=document.getElementById('zhouchang');
+var mianji=document.getElementById('mianji');
 butt.onclick=function(){
 /**button event */
   //get value
@@ -14,4 +14,4 @@ butt.onclick=function(){
   //output 
   zhouchang.value=z;
   mianji.value=m;
-}
+};
